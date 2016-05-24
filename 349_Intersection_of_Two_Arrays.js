@@ -6,7 +6,14 @@
 var intersection = function(nums1, nums2) {
     var target = [],
         ref = [],
-        result = [];
+        result = [],
+        bucket = {};
+
+    // NOTE keep bucket to avoid double loop
+    function mark(n) {
+        if(!bucket[n]) bucket[n] = true;
+    }
+
     if (nums1.length >= nums2.length){
         target = nums2;
         ref = nums1;
@@ -15,13 +22,12 @@ var intersection = function(nums1, nums2) {
         ref = nums2;
     }
 
+    ref.forEach(mark);
     target.forEach(function(num){
-        ref.forEach(function(r){
-            if (num === r){
-                if (result.indexOf(num) < 0) result.push(num);
-                // NOTE push only when unique
-            }
-        });
+        if (bucket[num]){
+            if (result.indexOf(num) < 0) result.push(num);
+            // NOTE push only when unique
+        }
     });
 
     return result;
