@@ -17,7 +17,7 @@ var maxDepth = function(root) {
         } else {
             return Math.max(dfs(node.left, depth+1), dfs(node.right, depth+1));
         }
-    }
+    };
 
     return dfs(root, 0);
 };
