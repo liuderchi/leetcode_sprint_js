@@ -7,18 +7,27 @@
 
 ## Log
 
-- 344: Reverse String (2016-05-23)
-- 338: Counting Bits  (2016-05-23)
-- 292: Nim Game 	  (2016-05-23)
-- 136: Single Number  (2016-05-23)
-- 258: Add Digits     (2016-05-23)
-- 104: Maximum Depth of Binary Tree     (2016-05-24)
-- 226: Invert Binary Tree               (2016-05-24)
-- 349: Intersection of Two Arrays       (2016-05-24)
-- 283: Move Zeroes                      (2016-05-24)
-- 260: Single Number III                (2016-05-24)
-- 237: Delete Node in a Linked List         (2016-05-25)
-- 100: Same Tree                            (2016-05-25)
-- 238: Product of Array Except Self         (2016-05-25)
-- 122: Best Time to Buy and Sell Stock II   (2016-05-25)
-- 242: Valid Anagram                        (2016-05-25)
+- 2016-05-23
+    - 344: Reverse String
+    - 338: Counting Bits
+    - 292: Nim Game
+    - 136: Single Number
+    - 258: Add Digits
+- 2016-05-24
+    - 104: Maximum Depth of Binary Tree
+    - 226: Invert Binary Tree
+    - 349: Intersection of Two Arrays
+    - 283: Move Zeroes
+    - 260: Single Number III
+- 2016-05-25
+    - 237: Delete Node in a Linked List
+    - 100: Same Tree
+    - 238: Product of Array Except Self
+    - 122: Best Time to Buy and Sell Stock II
+    - 242: Valid Anagram
+- 2016-05-26
+    - 171 Excel Sheet Column Number
+    - 347 Top K Frequent Elements
+    - 350 Intersection of Two Arrays II
+    - 169 Majority Element
+    - 217 Contains Duplicate

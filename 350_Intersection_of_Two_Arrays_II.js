@@ -4,9 +4,7 @@
  * @return {number[]}
  */
 var intersect = function(nums1, nums2) {
-    var target = [],
-        ref = [],
-        result = [],
+    var result = [],
         bucket = {};
 
     function count(n) {
@@ -17,16 +15,10 @@ var intersect = function(nums1, nums2) {
         }
     }
 
-    if (nums1.length >= nums2.length){
-        target = nums2;
-        ref = nums1;
-    } else {
-        target = nums1;
-        ref = nums2;
-    }
+    // NOTE comparing nums1.length, nums2.length is redundent
 
-    ref.forEach(count);
-    target.forEach(function(num){
+    nums1.forEach(count);
+    nums2.forEach(function(num){
         if (bucket[num]){
             result.push(num);
             bucket[num] -= 1;

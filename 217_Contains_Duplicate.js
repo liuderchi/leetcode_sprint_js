@@ -3,7 +3,6 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-    if (nums.length <= 1) return false;
     var bucket = {};
 
     for (var i = 0; i < nums.length; i++) {
@@ -13,6 +12,5 @@ var containsDuplicate = function(nums) {
             bucket[nums[i]] = true;
         }
     }
-
     return false;
 };
