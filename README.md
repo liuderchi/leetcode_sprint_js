@@ -1,6 +1,8 @@
 # leetcode_sprint_js
 
-- 5 leetcode questions per day inspired by this [leetcode practice repo](https://github.com/algorhythms/LeetCode)
+- 5 leetcode questions per day inspired by
+    - [this  leetcode practice repo](https://github.com/algorhythms/LeetCode)
+    - [also more complete 351 leetcode solutions](https://github.com/kamyu104/LeetCode)
 - Problems in [leetcode > algorithms](https://leetcode.com/problemset/algorithms/)
 - try to solve in JavaScript
 - starts from questions with higher Acceptance
@@ -31,3 +33,34 @@
     - 350 Intersection of Two Arrays II
     - 169 Majority Element
     - 217 Contains Duplicate
+- 2016-05-27
+    - 144 Binary Tree Preorder Traversal
+    - 268 Missing Number
+    - 206 Reverse Linked List
+    - 343 Integer Break
+    - 319 Bulb Switcher
+- 2016-05-28
+    - 94 Binary Tree Inorder Traversal
+    - 318 Maximum Product of Word Lengths (_time issue_)
+    - 13 Roman to Integer
+    - 52 N-Queens II (_Omit_)
+    - 12 Integer to Roman
+- 2016-05-29
+    - 287 Find the Duplicate Number
+    - 328 Odd Even Linked List
+    - 230 Kth Smallest Element in a BST
+    - 137 Single Number II
+    - 96 Unique Binary Search Trees (_Omit_)
+- 2016-05-30
+    - 235 Lowest Common Ancestor of a Binary Search Tree
+    - 191 Number of 1 Bits
+    - 108 Convert Sorted Array to Binary Search Tree
+    - 35 Search Insert Position
+    - 337 House Robber III
+- 2016-05-31
+    - 22 Generate Parentheses
+    - 312 Burst Balloons (_Omit_)
+    - 326 Power of Three
+    - 263 Ugly Number
+    - 231 Power of Two
+    - 83 Remove Duplicates from Sorted List
