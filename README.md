@@ -1,8 +1,9 @@
 # leetcode_sprint_js
 
 - 5 leetcode questions per day inspired by
-    - [this  leetcode practice repo](https://github.com/algorhythms/LeetCode)
-    - [also more complete 351 leetcode solutions](https://github.com/kamyu104/LeetCode)
+    - [algorhythms/LeetCode: leetcode practice repo](https://github.com/algorhythms/LeetCode)
+    - [kamyu104/LeetCode: more complete 351 leetcode solutions](https://github.com/kamyu104/LeetCode)
+- with help by [LeetCode problem review 解題報告](http://bookshadow.com/leetcode/)
 - Problems in [leetcode > algorithms](https://leetcode.com/problemset/algorithms/)
 - try to solve in JavaScript
 - starts from questions with higher Acceptance
