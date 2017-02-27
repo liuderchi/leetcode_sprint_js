@@ -12,4 +12,15 @@ var reverseString = function(s) {
         r[r.length - 1 - i] = tmp;
     }
     return r.join('');
+
+};
+
+var reverseString = function(s) {
+  return s.split('').reverse().join('');
+
+    // NOTE alternative
+    // 1. array.reverse() is std api
+    // 2. str.split() into array
+    // 3. array.join() into as string
+
 };
