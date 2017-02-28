@@ -11,57 +11,61 @@
 ## Log
 
 - 2016-05-23
-    - 344: Reverse String
-    - 338: Counting Bits
-    - 292: Nim Game
-    - 136: Single Number
-    - 258: Add Digits
+    - 344: [Reverse String](https://leetcode.com/problems/reverse-string/?tab=Description)
+    - 338: [Counting Bits](https://leetcode.com/problems/counting-bits)
+    - 292: [Nim Game](https://leetcode.com/problems/nim-game)
+    - 136: [Single Number](https://leetcode.com/problems/single-number)
+    - 258: [Add Digits](https://leetcode.com/problems/add-digits)
 - 2016-05-24
-    - 104: Maximum Depth of Binary Tree
-    - 226: Invert Binary Tree
-    - 349: Intersection of Two Arrays
-    - 283: Move Zeroes
-    - 260: Single Number III
+    - 104: [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
+    - 226: [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
+    - 349: [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
+    - 283: [Move Zeroes](https://leetcode.com/problems/move-zeroes)
+    - 260: [Single Number III](https://leetcode.com/problems/single-number-iii)
 - 2016-05-25
-    - 237: Delete Node in a Linked List
-    - 100: Same Tree
-    - 238: Product of Array Except Self
-    - 122: Best Time to Buy and Sell Stock II
-    - 242: Valid Anagram
+    - 237: [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)
+    - 100: [Same Tree](https://leetcode.com/problems/same-tree)
+    - 238: [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
+    - 122: [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
+    - 242: [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 - 2016-05-26
-    - 171 Excel Sheet Column Number
-    - 347 Top K Frequent Elements
-    - 350 Intersection of Two Arrays II
-    - 169 Majority Element
-    - 217 Contains Duplicate
+    - 171 [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number)
+    - 347 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)
+    - 350 [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)
+    - 169 [Majority Element](https://leetcode.com/problems/majority-element)
+    - 217 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
 - 2016-05-27
-    - 144 Binary Tree Preorder Traversal
-    - 268 Missing Number
-    - 206 Reverse Linked List
-    - 343 Integer Break
-    - 319 Bulb Switcher
+    - 144 [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)
+    - 268 [Missing Number](https://leetcode.com/problems/missing-number)
+    - 206 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
+    - 343 [Integer Break](https://leetcode.com/problems/integer-break)
+    - 319 [Bulb Switcher](https://leetcode.com/problems/bulb-switcher)
 - 2016-05-28
-    - 94 Binary Tree Inorder Traversal
-    - 318 Maximum Product of Word Lengths (_time issue_)
-    - 13 Roman to Integer
-    - 52 N-Queens II (_Omit_)
-    - 12 Integer to Roman
+    - 94 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
+    - 318 [Maximum Product of Word Lengths ](https://leetcode.com/problems/maximum-product-of-word-lengths-)
+        - (_time issue_)
+    - 13 [Roman to Integer](https://leetcode.com/problems/roman-to-integer)
+    - 52 [N-Queens II ](https://leetcode.com/problems/n-queens-ii-)
+        - (_Omit_)
+    - 12 [Integer to Roman](https://leetcode.com/problems/integer-to-roman)
 - 2016-05-29
-    - 287 Find the Duplicate Number
-    - 328 Odd Even Linked List
-    - 230 Kth Smallest Element in a BST
-    - 137 Single Number II
-    - 96 Unique Binary Search Trees (_Omit_)
+    - 287 [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)
+    - 328 [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
+    - 230 [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)
+    - 137 [Single Number II](https://leetcode.com/problems/single-number-ii)
+    - 96 [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)
+        - (_Omit_)
 - 2016-05-30
-    - 235 Lowest Common Ancestor of a Binary Search Tree
-    - 191 Number of 1 Bits
-    - 108 Convert Sorted Array to Binary Search Tree
-    - 35 Search Insert Position
-    - 337 House Robber III
+    - 235 [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
+    - 191 [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)
+    - 108 [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)
+    - 35 [Search Insert Position](https://leetcode.com/problems/search-insert-position)
+    - 337 [House Robber III](https://leetcode.com/problems/house-robber-iii)
 - 2016-05-31
-    - 22 Generate Parentheses
-    - 312 Burst Balloons (_Omit_)
-    - 326 Power of Three
-    - 263 Ugly Number
-    - 231 Power of Two
-    - 83 Remove Duplicates from Sorted List
+    - 22 [Generate Parentheses](https://leetcode.com/problems/generate-parentheses)
+    - 312 [Burst Balloons](https://leetcode.com/problems/burst-balloons)
+        - (_Omit_)
+    - 326 [Power of Three](https://leetcode.com/problems/power-of-three)
+    - 263 [Ugly Number](https://leetcode.com/problems/ugly-number)
+    - 231 [Power of Two](https://leetcode.com/problems/power-of-two)
+    - 83 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
