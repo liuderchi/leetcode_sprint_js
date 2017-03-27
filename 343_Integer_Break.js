@@ -5,32 +5,20 @@
 var integerBreak = function(n) {
 
     function breakInt(n, numParts){
-        var result = [],
-            remain = n,
-            target;
-        for (var i = 0; i < numParts; i++) {
-            target = Math.floor(n/numParts);
-            remain -= target;
-            if (remain < target){
-                target += remain;
-                remain = 0;
-            }
-            result.push(target);
+        var result = [];
+        for (var x = 0 ; x < numParts; x++) {
+          result.push(0);
         }
-        // NOTE dividing remain, add ones
-        for (i = 0; remain > 0; i++) {
-            result[i] += 1;
-            remain--;
+        for (var i = 0 ; i < n ; i ++){
+          result[i%numParts] += 1;
         }
         return result;
     }
 
     function productSum(array){
-        var s = 1;
-        array.forEach(function(n){
-            s *= n;
-        });
-        return s;
+        return array.reduce(function(cur, next){
+          return cur*next;
+        }, 1);
     }
 
     var last = 1,
