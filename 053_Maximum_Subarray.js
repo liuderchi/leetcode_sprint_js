@@ -10,13 +10,34 @@
  */
 var maxSubArray = function(nums) {
 
+    var sum = 0;
+    var res = nums[0];
+    var resStartIndex = 0;
+    var resEndIndex = 0;
 
-    function allNegative(array){
-        var ret = array.filter(function(n){return n>=0;});
-        return ret.length === 0;
+    for (var i in nums) {
+        // keep adding nums[i] to sum, until sum is negative
+        // if sum is negative, reset sum to 0
+        sum += nums[i];
+
+        if (sum > res) {
+            resEndIndex = parseInt(i);
+        }
+        res = Math.max(res, sum);
+
+        if (sum < 0) {
+            sum = 0;
+            resStartIndex = parseInt(i)+1;
+            resEndIndex = parseInt(i)+1;
+        }
     }
+    return res;
+};
 
-    if (allNegative(nums)) {
+var _maxSubArray = function(nums) {
+
+    /*case one: handle all numbers are zero*/
+    if (nums.every(function(n){return n<0;})) {
         var max = nums[0];
         for (i = 0; i < nums.length; i++) {
             max = Math.max(nums[i], max);
@@ -24,16 +45,15 @@ var maxSubArray = function(nums) {
         return max;
     }
 
-
-    var global_max = -10000000,
+    var max_of_local_max = -10000000,
         local_max = 0;
 
     for (var i in nums) {
         local_max = Math.max(0, local_max + nums[i]);
-        global_max = Math.max(global_max, local_max);
+        max_of_local_max = Math.max(max_of_local_max, local_max);
     }
 
-    return global_max;
+    return max_of_local_max;
 };
 
 console.log(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]));
