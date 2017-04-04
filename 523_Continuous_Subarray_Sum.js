@@ -26,7 +26,39 @@ var checkSubarraySum = function(nums, k) {
     return false;
 };
 
+var _checkSubarraySum = function(nums, k) {
+    var bucket = {0: -1};  // modulus, index
+    var curSum = 0;
+
+    if (nums.length <2) return false;
+
+    for (var i=0; i<nums.length; i++) {
+        // accu sum
+        curSum += nums[i];
+
+        var mod;
+        if (k!==0) {
+            mod = curSum % k;
+        } else {
+            mod = curSum;
+        }
+
+        // retrive index from bucket
+        var retrieveInd = bucket[mod];
+        if(retrieveInd !== undefined) {
+            // retrivedInd is less than current index
+            if (retrieveInd < i-1 ) return true;
+        } else {
+            bucket[mod] = i;
+        }
+    }
+
+    return false;
+};
+
 
 console.log(checkSubarraySum([1,2,3], 6));   // true
 console.log(checkSubarraySum([0], 0));       // false
 console.log(checkSubarraySum([0, 0], 0));    // true
+
+console.log(_checkSubarraySum([1,2,3], 6));   // true
