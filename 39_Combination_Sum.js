@@ -21,9 +21,7 @@ var combinationSum = function(candidates, target) {
       if (_target < 0) return;
       if (_target === 0) {
           //_target is zero: copy combination and push to res
-          var tmp = [];
-          for (var x = 0; x<combination.length; x++) tmp.push(combination[x]);
-          res.push(tmp);
+          res.push(combination.slice());
           return;
       }
 
