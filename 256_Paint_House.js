@@ -41,7 +41,7 @@ var minCost = function(costs) {
         dpHistory[i][2] = (dp[i-1][0] < dp[i-1][1])? 0:1;
     }
 
-    paintHistory = [];
+    var paintHistory = [];
     var color = dp[n-1].indexOf(Math.min(dp[n-1][0], dp[n-1][1], dp[n-1][2]));
     for (i=n-1; i>-1; i--) {
         paintHistory.splice(0, 0, color);
