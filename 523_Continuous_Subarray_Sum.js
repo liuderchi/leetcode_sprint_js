@@ -36,12 +36,7 @@ var _checkSubarraySum = function(nums, k) {
         // accu sum
         curSum += nums[i];
 
-        var mod;
-        if (k!==0) {
-            mod = curSum % k;
-        } else {
-            mod = curSum;
-        }
+        var mod = (k !== 0) ? curSum % k : curSum;
 
         // retrive index from bucket
         var retrieveInd = bucket[mod];
