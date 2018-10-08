@@ -1,0 +1,41 @@
+{
+  "name": "leetcode_sprint_js",
+  "version": "1.0.0",
+  "description": "- 5 leetcode questions per day inspired by     - [algorhythms/LeetCode: leetcode practice repo](https://github.com/algorhythms/LeetCode)     - [kamyu104/LeetCode: more complete 351 leetcode solutions](https://github.com/kamyu104/LeetCode) - with help by [LeetCode problem review 解題報告](http://bookshadow.com/leetcode/) - Problems in [leetcode > algorithms](https://leetcode.com/problemset/algorithms/) - try to solve in JavaScript - starts from questions with higher Acceptance",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clearCellOutput": "./utils/clearCellOutput.js",
+    "prettier:code-cell": "./utils/prettierCodeCell.js",
+    "prettier:settings": "prettier --parser=json --write jupyterlab-settings/**/*.jupyterlab-settings",
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuderchi/leetcode_sprint_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuderchi/leetcode_sprint_js/issues"
+  },
+  "homepage": "https://github.com/liuderchi/leetcode_sprint_js#readme",
+  "lint-staged": {
+    "*.ipynb": [
+      "npm run clearCellOutput",
+      "npm run prettier:code-cell",
+      "git add"
+    ],
+    "*.jupyterlab-settings": [
+      "prettier --parser=json --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.13.7"
+  }
+}
