@@ -1,39 +1,33 @@
 /**
- * @param {number} num
- * @return {string}
+ * @param {string} s
+ * @return {number}
  */
-const intToRoman = num => {
-  const intChrMap = {
-    1: 'I',
-    4: 'IV',
-    5: 'V',
-    9: 'IX',
-    10: 'X',
-    40: 'XL',
-    50: 'L',
-    90: 'XC',
-    100: 'C',
-    400: 'CD',
-    500: 'D',
-    900: 'CM',
-    1000: 'M',
+var romanToInt = function(s) {
+  var chrIntMap = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
   };
 
-  const components = Object.keys(intChrMap)
-    .sort((a, b) => b - a)
-    .map(c => parseInt(c));
-  // integer components begins with larger ones
+  var ret = 0;
+  var chrs = s.split('');
 
-  const ret = [];
-  for (let comp in components) {
-    while (num >= components[comp]) {
-      ret.push(intChrMap[components[comp]]);
-      num -= components[comp];
+  //NOTE ADD from left to right, except for current char is greater than previous
+
+  chrs.forEach(function(c, index) {
+    if (index > 0 && chrIntMap[c] > chrIntMap[chrs[index - 1]]) {
+      // e.g. XIV
+      ret -= chrIntMap[chrs[index - 1]]; // revert last op
+      ret += chrIntMap[c] - chrIntMap[chrs[index - 1]];
+    } else {
+      ret += chrIntMap[c];
     }
-  }
-  return ret.join('');
+  });
+  return ret;
 };
 
-console.log(intToRoman(55));
-
-export default intToRoman;
+export default romanToInt;

@@ -1,5 +1,5 @@
 {
-  "name": "012-integer-to-roman",
+  "name": "013-roman-to-integer",
   "version": "1.0.0",
   "description": "",
   "main": "problem/index.js",

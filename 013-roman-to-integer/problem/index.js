@@ -9,7 +9,7 @@ const App = () => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://leetcode.com/problems/integer-to-roman/description/"
+          href="https://leetcode.com/problems/roman-to-integer/description/"
         >
           Problem Description
         </a>

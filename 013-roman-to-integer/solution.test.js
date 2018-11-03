@@ -1,10 +1,10 @@
-import intToRoman from './solution';
+import romanToInt from './solution';
 
-test('basic examples for intToRoman()', () => {
-  expect(intToRoman(0)).toBe('');
-  expect(intToRoman(55)).toBe('LV');
+test('type of romanToInt is function', () => {
+  expect(typeof romanToInt).toBe('function');
 });
 
-test('type of intToRoman is function', () => {
-  expect(typeof intToRoman).toBe('function');
+test('basic examples for romanToInt()', () => {
+  expect(romanToInt('')).toBe(0);
+  expect(romanToInt('LV')).toBe(55);
 });
